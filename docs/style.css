@@ -1,6 +1,7 @@
 html {
     font-family: sans-serif;
     background-color: #447744;
+    scroll-padding-top: 170px;
 }
 
 body {
@@ -43,6 +44,8 @@ menu {
     padding: 0 0 0 0;
     position: sticky;
     top: 125px;
+    height: 45px;
+    overflow: clip;
 }
 
 menu li {
