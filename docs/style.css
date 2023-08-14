@@ -1,6 +1,11 @@
-body, html {
+html {
     font-family: sans-serif;
-    background-color: lime;
+    background-color: #447744;
 }
 
+body {
+    background-color: #40ee40;
+    margin: 2em 3em 1em 3em;
+    padding: 3px 1em 3px 1em;
+}
 
