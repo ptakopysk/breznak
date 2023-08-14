@@ -5,21 +5,44 @@ html {
 
 body {
     background-color: #40ee40;
-    margin: 2em 3em 1em 3em;
+    margin: 40px 60px 20px 60px;
+    padding-bottom: 5px;
     font-size: 150%;
-    padding-top: 3px;
-    padding-bottom: 3px;
 }
 
-h1, h2, h3, p, address, ul {
+body > * {
     margin-left: 20px;
     margin-right: 20px;
 }
 
-menu {
+hr, menu, #aktualni  {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
+}
+
+h1 {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    position: sticky;
+    top: 0;
+    height: 125px;
+    background-color: #55aa55;
+    color: #55ff55;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+}
+
+h1 img {
+    margin-right: 10px;
+}
+
+menu {
     background-color: #447744;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    position: sticky;
+    top: 125px;
 }
 
 menu li {
