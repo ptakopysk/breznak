@@ -6,7 +6,36 @@ html {
 body {
     background-color: #40ee40;
     margin: 2em 3em 1em 3em;
-    padding: 3px 1em 3px 1em;
     font-size: 150%;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
+h1, h2, h3, p, address, ul {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+menu {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    background-color: #447744;
+}
+
+menu li {
+    display: inline-block;
+    margin: 1px 1px 1px 1px;
+}
+
+menu li a {
+    display: inline-block;
+    padding: 3px 10px 3px 10px;
+    margin: 3px 0px 3px 0px;
+    background-color: #449944;
+    color: white;
+    text-decoration: none;
+}
+
+menu li a:hover, menu li a:active {
+    background-color: #44cc44;
+}
