@@ -65,3 +65,10 @@ menu li a {
 menu li a:hover, menu li a:active {
     background-color: #44cc44;
 }
+
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
